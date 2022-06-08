@@ -4,11 +4,15 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
 import Brands from "./pages/Brands"
+import Fallback from "./pages/Fallback";
 
 
 function App() {
   return(
     <Switch>
+       <Route exact path="/">
+        <About />
+      </Route>
       <Route path="/about">
         <About />
       </Route>
@@ -21,9 +25,10 @@ function App() {
       <Route path="/contact">
         <Contact />
       </Route>
-      <Route path="/">
-        <About />
+      <Route path="*">
+        <Fallback />
       </Route>
+      
     </Switch>
   );
 }
