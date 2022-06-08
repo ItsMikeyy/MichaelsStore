@@ -1,6 +1,6 @@
 const ContactForm = () => {
     return(
-        <div className="mx-auto my-8 w-1/2 border-2 border-red-500 p-8">
+        <div className="mx-auto my-8 w-[90%] md:w-1/2 border-2 border-red-500 p-8">
             <h2 className="text-4xl my-4 font-bold text-red-500 text-center">WERE HERE TO HELP!</h2>
             <p className="text-center font-bold">Just fill out the form and we'll get back to you as soon as possible!</p>
             <form className="mx-auto" action="https://formsubmit.co/7d259b639cab8c82831776a55f11d5e1 " method="POST">
