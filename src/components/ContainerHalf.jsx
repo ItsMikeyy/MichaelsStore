@@ -4,7 +4,7 @@ const ContainerHalf = (props) => {
         <h1 className="text-white text-center font-bold text-2xl my-2">{props.title}</h1>
         <p className="p-4">{props.body}</p>
     </div>
-    )
+    );
 }
 
-export default ContainerHalf
+export default ContainerHalf;

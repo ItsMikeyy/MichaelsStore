@@ -13,7 +13,7 @@ const Contact = () => {
             <ContactForm />
             <Footer />
         </Fragment>
-    )
+    );
 }
 
 export default Contact
